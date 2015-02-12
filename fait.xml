@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<variables>
+		<variable>
+			<id>Ac</id>
+			<nom>ancienne</nom>
+		</variable>
+		<variable>
+			<id>M</id>
+			<nom>nombre de monuments</nom>
+		</variable>
+	</variables>
+</root>

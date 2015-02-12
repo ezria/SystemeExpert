@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<variables>
+		<variable>
+			<id>B</id>
+			<nom>Belle</nom>
+		</variable>
+		<variable>
+			<id>Ac</id>
+			<nom>ancienne</nom>
+		</variable>
+		<variable>
+			<id>M</id>
+			<nom>nombre de monuments</nom>
+		</variable>
+		<variable>
+			<id>C</id>
+			<nom>nombreux concert</nom>
+		</variable>
+		<variable>
+			<id>T</id>
+			<nom>nombreux théatre</nom>
+		</variable>
+		<variable>
+			<id>S</id>
+			<nom>Activités sportives</nom>
+		</variable>
+		<variable>
+			<id>F</id>
+			<nom>Folklorique</nom>
+		</variable>
+		<variable>
+			<id>V</id>
+			<nom>espaces verts</nom>
+		</variable>
+		<variable>
+			<id>Cl</id>
+			<nom>Climat agréable</nom>
+		</variable>
+		<variable>
+			<id>R</id>
+			<nom>Nombreux restaurants</nom>
+		</variable>
+		<variable>
+			<id>Br</id>
+			<nom>Bons restaurants</nom>
+		</variable>
+		<variable>
+			<id>G</id>
+			<nom>Gastronomique</nom>
+		</variable>
+		<variable>
+			<id>Ag</id>
+			<nom>agréable</nom>
+		</variable>
+		<variable>
+			<id>An</id>
+			<nom>nombreuses animations</nom>
+		</variable>
+		<variable>
+			<id>H</id>
+			<nom>Historique</nom>
+		</variable>
+		<variable>
+			<id>Ar</id>
+			<nom>Artistique</nom>
+		</variable>
+		<variable>
+			<id>D</id>
+			<nom>Vaut le détour</nom>
+		</variable>
+	</variables>
+	<operations>
+		<operation>ET</operation>
+		<operation>OU</operation>
+		<operation>NON</operation>
+		<operation>EGAL</operation>
+	</operations>
+	<regles>
+		<regle id="1">
+			H EGAL D
+		</regle>
+		<regle id="2">
+			Ar EGAL D
+		</regle>
+		<regle id="3">
+			An EGAL D
+		</regle>
+		<regle id="4">
+			Ag ET G EGAL D
+		</regle>
+		<regle id="5">
+			B ET M EGAL Ar
+		</regle>
+		<regle id="6">
+			Ac ET M EGAL H
+		</regle>
+		<regle id="7">
+			C ET T EGAL An
+		</regle>
+		<regle id="8">
+			S ET F EGAL An
+		</regle>
+		<regle id="9">
+			V ET Cl EGAL Ag
+		</regle>
+		<regle id="10">
+			V ET M EGAL B
+		</regle>
+		<regle id="11">
+			R ET Br EGAL G
+		</regle>
+	</regles>
+</root>
